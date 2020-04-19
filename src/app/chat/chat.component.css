@@ -1,0 +1,54 @@
+.chatform {
+  width: 60%;
+  margin:auto;
+  margin-top: 40px;
+}
+
+.chatform .chatcontrol {
+  float: left;
+  width: 100%;
+}
+
+.chatcontrol .chatinput {
+  width: 80%;
+  float: left;
+  border-radius: 0;
+}
+
+.chatcontrol .sendbtn {
+  width: 100%;
+  float: left;
+  border-radius: 0;
+  text-transform: uppercase;
+  /* padding: 0px 0px */
+   height: calc(1.5em + .75rem + 2px);
+   padding: 8px 20px;
+   font-size: 1em;
+}
+
+.message {
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.timeform {
+  float: left;
+  width: 100%;
+}
+
+
+.timeform .timestamp {
+  font-size: 0.8em;
+  margin-left: 5px;
+}
+
+.avatar {
+  width: 50px;
+  margin-right: 20px;
+}
+
+.chatlist {
+  height: 60vh;
+  overflow-y: scroll;
+}

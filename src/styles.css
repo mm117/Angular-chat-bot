@@ -1,10 +1,10 @@
 body {
   width: 100%;
   min-height:100%;
-  background: #eee;
   background-attachment: fixed;
   background-size: cover;
   font-family: "Open Sans", sans-serif;
+  background-image: url('./assets/images/background-image-6.jpg');
 }
 
 
@@ -20,11 +20,11 @@ body {
   display: block;
   border: 1px solid #000;
   border-radius: 4px;
-  background-color: rgba(255,255,255,0.85);
+  background-color: rgba(193, 188, 188, 0.55);
   width: 60%;
   height: auto;
   margin: auto;
-  margin-top: 40px;
+  margin-top: 10%;
   text-align: center;
   padding: 10px 30px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.17), 0 1px 2px rgba(0,0,0,0.24);
@@ -38,7 +38,7 @@ body {
   width: 60%;
   /* height: 40px; */
   border-radius:4px;
-  background:#ecf0f1;
+  background:#fff;
   border: #ccc 1px solid;
   padding: 8px;
   font-size:1em;
@@ -59,6 +59,7 @@ body {
   box-shadow: 0 1px 3px rgba(0,0,0,0.17), 0 1px 2px rgba(0,0,0,0.24);
   transition: ease-in 0.2s;
   background-color:#2A2845;
+  text-transform: uppercase
 }
 .button:hover{
     background-color:#5A5895;
@@ -76,5 +77,9 @@ h2{
   .btn{
      padding: 15px 0px
   }
+  .form-control{
+    width: 100%;
+  }
+
 }
 

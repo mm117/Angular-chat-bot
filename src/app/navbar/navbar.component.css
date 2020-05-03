@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: row;
   background-color: #EAEAEB;
+  background: url('../../assets/images/game_bg.png');
 }
 
 #logo{
